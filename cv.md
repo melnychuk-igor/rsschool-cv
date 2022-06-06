@@ -107,3 +107,16 @@ init();
 - WordPress developer at Wpwp.bz (3 months)
 
 ---
+
+## Education:
+
+- **University:** Ivano-Frankivsk National Technical University of Oil and Gas
+- **Courses:** Full course on JavaScript + React Course - From Zero to Result
+
+---
+
+## Languages:
+
+- English - Elementary
+- Ukrainian - Native
+- Russian - Intermediate
