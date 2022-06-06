@@ -33,3 +33,77 @@ I am working as a Wordpress developer for 2 years. I have started my career with
 - Git
 
 ---
+
+## Code example:
+**Stopwatch on Js**
+```
+const timer = document.getElementById("timer");
+let seconds = 0;
+let minutes = 0;
+let hours = 0;
+
+function init() {
+	setInterval(tick, 1000);
+}
+
+function tick() {
+	seconds++;
+	if (seconds >= 60) {
+		minutes++;
+		seconds = seconds - 60;
+	}
+	if (minutes >= 60) {
+		hours++;
+		minutes = minutes - 60;
+	}
+	if (seconds < 10) {
+		if (minutes < 10) {
+			if (hours < 10) {
+				timer.innerHTML =
+					"0" + hours + ":0" + minutes + ":0" + seconds;
+			} else {
+				timer.innerHTML =
+					hours + ":0" + minutes + ":0" + seconds;
+			}
+		} else {
+			if (hours < 10) {
+				timer.innerHTML =
+					"0" + hours + ":" + minutes + ":0" + seconds;
+			} else {
+				timer.innerHTML =
+					hours + ":" + minutes + ":0" + seconds;
+			}
+		}
+	} else {
+		if (minutes < 10) {
+			if (hours < 10) {
+				timer.innerHTML =
+					"0" + hours + ":0" + minutes + ":" + seconds;
+			} else {
+				timer.innerHTML =
+					hours + ":0" + minutes + ":" + seconds;
+			}
+		} else {
+			if (hours < 10) {
+				timer.innerHTML =
+					"0" + hours + ":" + minutes + ":" + seconds;
+			} else {
+				timer.innerHTML =
+					hours + ":" + minutes + ":" + seconds;
+			}
+		}
+	}
+}
+
+init();
+```
+
+---
+
+## Experience:
+
+- Web developer at AWEB System (6 months)
+- WordPress developer at SP//DEV (10 months)
+- WordPress developer at Wpwp.bz (3 months)
+
+---
