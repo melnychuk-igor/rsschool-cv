@@ -1,1 +1,1 @@
-https://melnychuk-igor.github.io/rsschool-cv/cv
+https://melnychuk-igor.github.io/rsschool-cv/
